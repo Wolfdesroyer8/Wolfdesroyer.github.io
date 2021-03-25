@@ -13,18 +13,36 @@
     <body style="margin-bottom: 15em;">
         <h1 id="bigtitle" class="title">Wolfdesroyer8</h1>
         <div id="buttons">
-            <button id="button1">About Me</button>
-            <button id="button2">Projects</button>
-            <button id="button3">Contact</button>
+            <button onclick="but1()" id="button1">About Me</button>
+            <button onclick="but2()" id="button2">Projects</button>
+            <button onclick="but3()" id="button3">Contact</button>
         </div>
         <div id="aboutme" style="margin-top: 40%;">
             <h1 class="title" style="margin-bottom: 2em;">About Me</h1>
             <p class="text">My name is Julian and im a 7th grader in the USA. I enjoy coding in langues like java, python, javascript, batch script, html, css, c++, and c#.
                 I also enjoy robotics with arduino and raspberry pi. I have a dicord bot called soup that I coded in python but it's not that useful
                 (<a style="color: #777caf;" target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=748704667453751368&permissions=1036119063&scope=bot">get bot here</a>).
-
             </p>
         </div>
-        <p id="copy">©Wolfdesroyer8 2021</p>
+        <div id="projects" style="margin-top: 40%;">
+            <h1 class="title" style="margin-bottom: 2em;">Projects</h1>
+            <p class="text" style="margin-bottom: 34em;">Comming soon!
+            </p>
+        </div>
+        <div id="contact" style="margin-top: 40%;">
+            <h1 class="title" style="margin-bottom: 2em;">Contact</h1>
+            <table id="contacttable" class="text">
+                <tr>
+                  <th>Site</th>
+                  <th>Contact</th>
+                </tr>
+                <tr>
+                  <td>Discord</td>
+                  <td>Wolfdesroyer8#0000</td>
+                </tr>
+              </table>
+        </div>
+        <p class="text" id="copy">©Wolfdesroyer8 2021</p>
+        <script src="index.js"></script>
     </body>
 </html>
