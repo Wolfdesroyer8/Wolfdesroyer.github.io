@@ -60,7 +60,7 @@ body {
  #copy {
    position: fixed;
    bottom: 0;
-   left: 0;
+   left: 0.5;
    width: 300px;
-   color:#6474BD
+   color:#6474BD;
  }
