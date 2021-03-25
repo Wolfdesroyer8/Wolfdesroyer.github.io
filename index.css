@@ -1,14 +1,25 @@
 body {
-    background-color:#333C69;
+    background-color:#353A4D;
 }
  .title {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
-    text-align: center,;
-    size: 2.5em;
+    text-align: center;
+    color: #6F74A3;
+    font-size: 2.5em;
+ }
+
+ .title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #6F74A3;
+    font-size: 2em;
  }
 
  .text {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #6F74A3;
+    font-size: 1.5em;
  }
