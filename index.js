@@ -15,7 +15,7 @@ function but3() {
 };
 
 function scroll(px) {
-    for (var i=0; i<px; i ++) {
-        setTimeout(window.scrollBy(0, i), 500);
+    for (var i=0; i<px; i++) {
+        setTimeout(window.scrollBy(0, 1), 100);
     };
 };
