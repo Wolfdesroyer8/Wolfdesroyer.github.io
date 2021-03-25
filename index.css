@@ -9,6 +9,14 @@ body {
     font-size: 2.5em;
  }
 
+ #bigtitle {
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   color: #6F74A3;
+   font-size: 2.5em;
+}
+
  #button1 {
    font-family: 'Montserrat', sans-serif;
    font-family: 'Roboto', sans-serif;
@@ -45,7 +53,7 @@ body {
    /*margin-left: 45%;*/
 }
 
-.buttons {
+#buttons {
    margin-top: 20%;
    margin-left: 39%;
  } 
@@ -55,6 +63,8 @@ body {
     text-align: center;
     color: #6F74A3;
     font-size: 1.5em;
+    margin-left:12%;
+    margin-right: 12%;
  }
 
  #copy {
@@ -63,4 +73,20 @@ body {
    left: 0.5;
    width: 300px;
    color:#6474BD;
+ }
+
+::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+   background: #353A4D 
+ }
+  
+ ::-webkit-scrollbar-thumb {
+   background: #434e81;  
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+   background: #364069; 
  }
